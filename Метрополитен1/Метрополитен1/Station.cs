@@ -13,42 +13,42 @@ namespace Метрополитен1
         bool hasParkAndride;
         bool hasNearbyCableCar;
         List<Station> transfers = new List<Station>();
-        public Station(string name, string color)
+        public Station(string name, string color) // конструктр
         {
             this.name = name;
             this.color = color;
         }
-        public Station(string name, string color, List<Station> transfers)
+        public Station(string name, string color, List<Station> transfers) //
         {
             this.name = name;
             this.color = color;
             this.transfers = transfers;
         }
-        public string GetName()
+        public string GetName() //
         {
             return name;
         }
-        public void SetName(string name)
+        public void SetName(string name) //
         {
             this.name = name;
         }
-        public bool IsWheelchairAccessible()
+        public bool IsWheelchairAccessible() //
         {
             return isWheelchairAccessible;
         }
-        public bool HasParkAndride()
+        public bool HasParkAndride() //
         {
             return hasParkAndride;
         }
-        public bool HasNearbyCableCar()
+        public bool HasNearbyCableCar() //
         {
             return hasNearbyCableCar;
         }
-        public string GetLineName()
+        public string GetLineName() //
         {
             return line.GetName();
         }
-        public List<Station> GetTransferList()
+        public List<Station> GetTransferList() //
         {
             return transfers;
         }
