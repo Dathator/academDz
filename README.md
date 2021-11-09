@@ -1,1 +1,2 @@
 # academDz
+Artur Osokin
