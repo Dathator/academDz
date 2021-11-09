@@ -13,42 +13,42 @@ namespace Метрополитен1
         bool hasParkAndride;
         bool hasNearbyCableCar;
         List<Station> transfers = new List<Station>();
-        public Station(string name, string color) // конструктр
+        public Station(string name, string color) // конструктор класса
         {
             this.name = name;
             this.color = color;
         }
-        public Station(string name, string color, List<Station> transfers) //
+        public Station(string name, string color, List<Station> transfers) // конструктор класса со списком станций, в которые можно попасть
         {
             this.name = name;
             this.color = color;
             this.transfers = transfers;
         }
-        public string GetName() //
+        public string GetName() // возвращает название станции
         {
             return name;
         }
-        public void SetName(string name) //
+        public void SetName(string name) // устанавливает название станции name
         {
             this.name = name;
         }
-        public bool IsWheelchairAccessible() //
+        public bool IsWheelchairAccessible() // возвращает, доступна ли станция для людей в инвалидных креслах
         {
             return isWheelchairAccessible;
         }
-        public bool HasParkAndride() //
+        public bool HasParkAndRide() // возвращает, есть ли рядом парк
         {
             return hasParkAndride;
         }
-        public bool HasNearbyCableCar() //
+        public bool HasNearbyCableCar() // возвращает, есть ли рядом канатная дорога
         {
             return hasNearbyCableCar;
         }
-        public string GetLineName() //
+        public string GetLineName() // возвращает название линии метро, на которой находится станция
         {
             return line.GetName();
         }
-        public List<Station> GetTransferList() //
+        public List<Station> GetTransferList() // возвращает список станций, в которые можно попасть с этой станции
         {
             return transfers;
         }
