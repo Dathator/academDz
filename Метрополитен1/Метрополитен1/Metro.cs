@@ -5,11 +5,12 @@ namespace Метрополитен1
 {
     public class Metro
     {
-        List<Line> lines = new List<Line>();
+        List<Line> lines;
         string city;
         public Metro(string city) // конструкор класса
         {
             this.city = city;
+            new List<Line>();
         }
         public string GetCity() // возвращает название города city
         {

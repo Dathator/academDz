@@ -1,0 +1,11 @@
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\bin\Debug\netcoreapp3.1\Машазин музыкальных дисков.exe
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\bin\Debug\netcoreapp3.1\Машазин музыкальных дисков.deps.json
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\bin\Debug\netcoreapp3.1\Машазин музыкальных дисков.runtimeconfig.json
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\bin\Debug\netcoreapp3.1\Машазин музыкальных дисков.runtimeconfig.dev.json
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\bin\Debug\netcoreapp3.1\Машазин музыкальных дисков.dll
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\bin\Debug\netcoreapp3.1\Машазин музыкальных дисков.pdb
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\obj\Debug\netcoreapp3.1\Машазин музыкальных дисков.csprojAssemblyReference.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\obj\Debug\netcoreapp3.1\Машазин музыкальных дисков.AssemblyInfoInputs.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\obj\Debug\netcoreapp3.1\Машазин музыкальных дисков.AssemblyInfo.cs
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\obj\Debug\netcoreapp3.1\Машазин музыкальных дисков.dll
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Машазин музыкальных дисков\Машазин музыкальных дисков\obj\Debug\netcoreapp3.1\Машазин музыкальных дисков.pdb

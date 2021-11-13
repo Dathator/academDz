@@ -12,17 +12,21 @@ namespace Метрополитен1
         bool isWheelchairAccessible;
         bool hasParkAndride;
         bool hasNearbyCableCar;
-        List<Station> transfers = new List<Station>();
+        List<Station> transfers;
         public Station(string name, string color) // конструктор класса
         {
             this.name = name;
             this.color = color;
+            new List<Station>();
         }
         public Station(string name, string color, List<Station> transfers) // конструктор класса со списком станций, в которые можно попасть
         {
             this.name = name;
             this.color = color;
-            this.transfers = transfers;
+            foreach (Station i in transfers)
+            {
+                this.transfers.Add(i);
+            }
         }
         public string GetName() // возвращает название станции
         {

@@ -6,20 +6,19 @@ namespace Метрополитен1
 {
     public class Line
     {
-        List<Station> stations;
+        List<Station> stations = new List<Station>();
         string name;
         string color;
         public Line(string name, string color) // конструктор класса
         {
             this.name = name;
             this.color = color;
-            new List<Station>();
         }
         public Station GetStation(string name) // возвращает станцию с названием name
         {
             foreach (Station i in stations)
             {
-                if (i.GetName() == name)
+                if (i.Name == name)
                 {
                     return i;
                 }
@@ -54,7 +53,7 @@ namespace Метрополитен1
         {
             foreach (Station i in stations)
             {
-                if (i.GetName() == name)
+                if (i.Name == name)
                 {
                     stations.Remove(i);
                     break;
@@ -65,21 +64,25 @@ namespace Метрополитен1
         {
             foreach (Station i in stations)
             {
-                if (i.GetName() == name)
+                if (i.Name == name)
                 {
                     return i;
                 }
             }
             return null;
         }
-        public List<Station> GetStationList(string name) // возвращает список станций, вкоторые можно попасть со станции с названием name
+        public List<Station> GetStationTransferList(string name) // возвращает список станций, вкоторые можно попасть со станции с названием name
         {
             foreach (Station i in stations)
             {
-                if (i.GetName() == name)
-                    return i.GetTransferList();
+                if (i.Name == name)
+                    return i.TransferList;
             }
             return null;
+        }
+        public List<Station> GetStationList()
+        {
+            return stations;
         }
     }
 }
