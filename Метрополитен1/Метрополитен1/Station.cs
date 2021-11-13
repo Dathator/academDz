@@ -17,7 +17,7 @@ namespace Метрополитен1
         {
             this.name = name;
             this.color = color;
-            new List<Station>();
+            transfers = new List<Station>();
         }
         public Station(string name, string color, List<Station> transfers) // конструктор класса со списком станций, в которые можно попасть
         {

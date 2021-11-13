@@ -6,13 +6,14 @@ namespace Метрополитен1
 {
     public class Line
     {
-        List<Station> stations = new List<Station>();
-        string name;
-        string color;
-        public Line(string name, string color) // конструктор класса
+        protected List<Station> stations;
+        protected string name;
+        protected ConsoleColor color;
+        public Line(string name, ConsoleColor color) // конструктор класса
         {
             this.name = name;
             this.color = color;
+            new List<Station>();
         }
         public Station GetStation(string name) // возвращает станцию с названием name
         {
@@ -33,19 +34,19 @@ namespace Метрополитен1
         {
             this.name = name;
         }
-        public string GetColor() // возвращает цвет линии метро color
+        public ConsoleColor GetColor() // возвращает цвет линии метро color
         {
             return color;
         }
-        public void SetColor(string color) // изменяет цвет линии метро color
+        public void SetColor(ConsoleColor color) // изменяет цвет линии метро color
         {
             this.color = color;
         }
-        public void AddStation(string name, string color) // добавляет станцию с названием name и цветом color в список stations
+        public void AddStation(string name, ConsoleColor color) // добавляет станцию с названием name и цветом color в список stations
         {
             stations.Add(new Station(name, color));
         }
-        public void AddStation(string name, string color, List<Station> transfers) // добавляет станцию с названием name и цветом color и списком станций, вкоторые можно попасть, в список stations
+        public void AddStation(string name, ConsoleColor color, List<Station> transfers) // добавляет станцию с названием name и цветом color и списком станций, вкоторые можно попасть, в список stations
         {
             stations.Add(new Station(name, color, transfers));
         }
@@ -83,6 +84,43 @@ namespace Метрополитен1
         public List<Station> GetStationList()
         {
             return stations;
+        }
+        public virtual void PrintLine()
+        {
+
+        }
+    }
+    public class UndergroundLine : Line
+    {
+        public UndergroundLine(string name, ConsoleColor color) : base(name, color)
+        {
+
+        }
+        public override void PrintLine()
+        {
+            base.PrintLine();
+        }
+    }
+    public class DiameterLine : Line
+    {
+        public DiameterLine(string name, ConsoleColor color) : base(name, color)
+        {
+
+        }
+        public override void PrintLine()
+        {
+            base.PrintLine();
+        }
+    }
+    public class MCCLine : Line
+    {
+        public MCCLine(string name, ConsoleColor color) : base(name, color)
+        {
+
+        }
+        public override void PrintLine()
+        {
+            base.PrintLine();
         }
     }
 }

@@ -13,7 +13,7 @@ namespace Метрополитен1
         {
             this.name = name;
             this.color = color;
-            new List<Station>();
+            stations = new List<Station>();
         }
         public Station GetStation(string name) // возвращает станцию с названием name
         {

@@ -10,7 +10,7 @@ namespace Метрополитен1
         public Metro(string city) // конструкор класса
         {
             this.city = city;
-            new List<Line>();
+            lines = new List<Line>();
         }
         public string GetCity() // возвращает название города city
         {

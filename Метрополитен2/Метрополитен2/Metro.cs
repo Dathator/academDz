@@ -5,16 +5,20 @@ namespace Метрополитен1
 {
     public class Metro
     {
-        private List<Line> lines = new List<Line>();
-        private string city;
-        public Metro(string city) // конструкор класса
+        private List<Line> lines
         {
-            this.city = city;
+            get { return lines; }
+            set { lines = value; }
         }
-        public string City // возвращает и изменяет название города city
+        public string city // возвращает и изменяет название города city
         {
             get { return city; }
             set { city = value; }
+        }
+        public Metro(string city) // конструкор класса
+        {
+            this.city = city;
+            new List<Line>();
         }
         public void AddLine(string name, string color) // добавляет линию метро с названием name и цветом color в список lines
         {
@@ -53,6 +57,17 @@ namespace Метрополитен1
             }
             return null;
         }
-        public
+        public void GetStationList(string name)
+        {
+            
+        }
+        public void LoadStationsFromFile(string filename)
+        {
+
+        }
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }

@@ -159,6 +159,8 @@ namespace Машазин_музыкальных_дисков
             {
                 this.storeName = storeName;
                 this.address = address;
+                audios = new List<Audio>();
+                dvds = new List<DVD>();
             }
             public static Store operator +(Store store, DVD dvd)
             {
@@ -189,7 +191,7 @@ namespace Машазин_музыкальных_дисков
                 {
                     foreach (Audio i in audios)
                     {
-                        str += i.Name;
+                        str += i.name;
                         if (i != audios[audios.Count - 1])
                             str += ", ";
                     }
@@ -202,7 +204,7 @@ namespace Машазин_музыкальных_дисков
                 {
                     foreach (DVD i in dvds)
                     {
-                        str += i.Name;
+                        str += i.name;
                         if (i != dvds[dvds.Count - 1])
                             str += ", ";
                     }

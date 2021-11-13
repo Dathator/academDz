@@ -7,18 +7,19 @@ namespace Метрополитен1
     public class Station
     {
         protected string name;
-        protected string color;
+        protected ConsoleColor color;
         protected Line line;
         protected bool isWheelchairAccessible;
         protected bool hasParkAndride;
         protected bool hasNearbyCableCar;
-        protected List<Station> transfers = new List<Station>();
-        public Station(string name, string color) // конструктор класса
+        protected List<Station> transfers;
+        public Station(string name, ConsoleColor color, params string[] info) // конструктор класса
         {
             this.name = name;
             this.color = color;
+            new List<Station>();
         }
-        public Station(string name, string color, List<Station> transfers) // конструктор класса со списком станций, в которые можно попасть
+        public Station(string name, ConsoleColor color, List<Station> transfers, params string[] info) // конструктор класса со списком станций, в которые можно попасть
         {
             this.name = name;
             this.color = color;
@@ -48,6 +49,10 @@ namespace Метрополитен1
         public List<Station> TransferList // возвращает список станций, в которые можно попасть с этой станции
         {
             get { return transfers; }
+        }
+        public override string ToString()
+        {
+            return base.ToString();
         }
     }
 }
