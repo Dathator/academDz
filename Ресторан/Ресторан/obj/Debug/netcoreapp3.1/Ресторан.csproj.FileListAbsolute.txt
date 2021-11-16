@@ -1,0 +1,11 @@
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\bin\Debug\netcoreapp3.1\Ресторан.exe
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\bin\Debug\netcoreapp3.1\Ресторан.deps.json
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\bin\Debug\netcoreapp3.1\Ресторан.runtimeconfig.json
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\bin\Debug\netcoreapp3.1\Ресторан.runtimeconfig.dev.json
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\bin\Debug\netcoreapp3.1\Ресторан.dll
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\bin\Debug\netcoreapp3.1\Ресторан.pdb
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\obj\Debug\netcoreapp3.1\Ресторан.csprojAssemblyReference.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\obj\Debug\netcoreapp3.1\Ресторан.AssemblyInfoInputs.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\obj\Debug\netcoreapp3.1\Ресторан.AssemblyInfo.cs
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\obj\Debug\netcoreapp3.1\Ресторан.dll
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Ресторан\Ресторан\obj\Debug\netcoreapp3.1\Ресторан.pdb
