@@ -1,0 +1,25 @@
+﻿<Window x:Class="Кодовый_замок.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Кодовый_замок"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="but_1" Content="1" HorizontalAlignment="Left" Height="60" Margin="118.3,83.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFC7C7C7" Click="but_1_Click"/>
+        <Button x:Name="but_2" Content="2" HorizontalAlignment="Left" Height="60" Margin="178.3,83.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFC7C7C7" Click="but_2_Click"/>
+        <Button x:Name="but_3" Content="3" HorizontalAlignment="Left" Height="60" Margin="238.3,83.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFC7C7C7" Click="but_3_Click"/>
+        <Button x:Name="but_4" Content="4" HorizontalAlignment="Left" Height="60" Margin="118.3,143.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFC7C7C7" Click="but_4_Click"/>
+        <Button x:Name="but_5" Content="5" HorizontalAlignment="Left" Height="60" Margin="178.3,143.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFC7C7C7" Click="but_5_Click"/>
+        <Button x:Name="but_6" Content="6" HorizontalAlignment="Left" Height="60" Margin="238.3,143.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFC7C7C7" Click="but_6_Click"/>
+        <Button x:Name="but_7" Content="7" HorizontalAlignment="Left" Height="60" Margin="118.3,203.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFC7C7C7" Click="but_7_Click"/>
+        <Button x:Name="but_8" Content="8" HorizontalAlignment="Left" Height="60" Margin="178.3,203.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFC7C7C7" Click="but_8_Click"/>
+        <Button x:Name="but_9" Content="9" HorizontalAlignment="Left" Height="60" Margin="238.3,203.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFC7C7C7" Click="but_9_Click"/>
+        <Button x:Name="but_0" Content="0" HorizontalAlignment="Left" Height="60" Margin="178.3,263.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFC7C7C7" Click="but_0_Click"/>
+        <Button x:Name="but_no" Content="⛌" HorizontalAlignment="Left" Height="60" Margin="118.3,263.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FFFF6E5D" Click="but_no_Click"/>
+        <Button x:Name="but_ok" Content="✓" HorizontalAlignment="Left" Height="60" Margin="238.3,263.7,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.305,0.57" FontSize="20" Background="#FF65FF6C" Click="but_ok_Click"/>
+        <TextBox x:Name="text" HorizontalAlignment="Left" Height="30" Margin="118.3,53.7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Background="#FFFEFF9C"/>
+
+    </Grid>
+</Window>

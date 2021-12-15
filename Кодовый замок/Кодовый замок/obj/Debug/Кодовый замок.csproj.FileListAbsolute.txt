@@ -1,0 +1,15 @@
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\bin\Debug\Кодовый замок.exe.config
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\bin\Debug\Кодовый замок.exe
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\bin\Debug\Кодовый замок.pdb
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\Кодовый замок.csproj.AssemblyReference.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\MainWindow.g.cs
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\App.g.cs
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\Кодовый замок_MarkupCompile.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\Кодовый замок_MarkupCompile.lref
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\MainWindow.baml
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\Кодовый замок.g.resources
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\Кодовый_замок.Properties.Resources.resources
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\Кодовый замок.csproj.GenerateResource.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\Кодовый замок.csproj.CoreCompileInputs.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\Кодовый замок.exe
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок\Кодовый замок\obj\Debug\Кодовый замок.pdb
