@@ -1,0 +1,6 @@
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\wasp-osokin\wasp-osokin\obj\Debug\netcoreapp3.1\wasp-osokin.AssemblyInfoInputs.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\wasp-osokin\wasp-osokin\obj\Debug\netcoreapp3.1\wasp-osokin.AssemblyInfo.cs
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\wasp-osokin\wasp-osokin\obj\Debug\netcoreapp3.1\wasp-osokin.dll
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\wasp-osokin\wasp-osokin\obj\Debug\netcoreapp3.1\wasp-osokin.pdb
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\wasp-osokin\wasp-osokin\obj\Debug\netcoreapp3.1\wasp-osokin.csprojAssemblyReference.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\wasp-osokin\wasp-osokin\obj\Debug\netcoreapp3.1\wasp-osokin.csproj.CoreCompileInputs.cache

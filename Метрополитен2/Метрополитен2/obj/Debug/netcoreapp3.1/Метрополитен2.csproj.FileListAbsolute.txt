@@ -1,0 +1,5 @@
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Метрополитен2\Метрополитен2\obj\Debug\netcoreapp3.1\Метрополитен2.csproj.AssemblyReference.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Метрополитен2\Метрополитен2\obj\Debug\netcoreapp3.1\Метрополитен2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Метрополитен2\Метрополитен2\obj\Debug\netcoreapp3.1\Метрополитен2.AssemblyInfoInputs.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Метрополитен2\Метрополитен2\obj\Debug\netcoreapp3.1\Метрополитен2.AssemblyInfo.cs
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Метрополитен2\Метрополитен2\obj\Debug\netcoreapp3.1\Метрополитен2.csproj.CoreCompileInputs.cache
