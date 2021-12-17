@@ -1,0 +1,15 @@
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\bin\Debug\Academ_practic2.exe.config
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\bin\Debug\Academ_practic2.exe
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\bin\Debug\Academ_practic2.pdb
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\Academ_practic2.csproj.AssemblyReference.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\MainWindow.g.cs
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\App.g.cs
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\Academ_practic2_MarkupCompile.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\Academ_practic2_MarkupCompile.lref
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\MainWindow.baml
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\Academ_practic2.g.resources
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\Academ_practic2.Properties.Resources.resources
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\Academ_practic2.csproj.GenerateResource.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\Academ_practic2.csproj.CoreCompileInputs.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\Academ_practic2.exe
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Academ_practic2\Academ_practic2\obj\Debug\Academ_practic2.pdb
