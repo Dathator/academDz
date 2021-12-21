@@ -1,0 +1,15 @@
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\bin\Debug\Кодовый замок сюрреалиста.exe.config
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\bin\Debug\Кодовый замок сюрреалиста.exe
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\bin\Debug\Кодовый замок сюрреалиста.pdb
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\Кодовый замок сюрреалиста.csproj.AssemblyReference.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\MainWindow.g.cs
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\App.g.cs
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\Кодовый замок сюрреалиста_MarkupCompile.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\Кодовый замок сюрреалиста_MarkupCompile.lref
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\MainWindow.baml
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\Кодовый замок сюрреалиста.g.resources
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\Кодовый_замок_сюрреалиста.Properties.Resources.resources
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\Кодовый замок сюрреалиста.csproj.GenerateResource.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\Кодовый замок сюрреалиста.csproj.CoreCompileInputs.cache
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\Кодовый замок сюрреалиста.exe
+C:\Users\Артур\Documents\GitHub\Academy2\academDz\Кодовый замок сюрреалиста\Кодовый замок сюрреалиста\obj\Debug\Кодовый замок сюрреалиста.pdb

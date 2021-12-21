@@ -1,0 +1,25 @@
+﻿<Window x:Class="Кодовый_замок_сюрреалиста.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Кодовый_замок_сюрреалиста"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Text" HorizontalAlignment="Left" Height="37" Margin="51,32.2,0,0" TextWrapping="Wrap" Text="Введите pin-код" VerticalAlignment="Top" Width="150" Background="#FFFFED7A"/>
+        <Button x:Name="but1" Content="1" HorizontalAlignment="Left" Height="50" Margin="51,69.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click" IsManipulationEnabled="True"/>
+        <Button x:Name="but2" Content="2" HorizontalAlignment="Left" Height="50" Margin="101,69.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
+        <Button x:Name="but3" Content="3" HorizontalAlignment="Left" Height="50" Margin="151,69.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
+        <Button x:Name="but4" Content="4" HorizontalAlignment="Left" Height="50" Margin="51,119.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
+        <Button x:Name="but5" Content="5" HorizontalAlignment="Left" Height="50" Margin="101,119.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
+        <Button x:Name="but6" Content="6" HorizontalAlignment="Left" Height="50" Margin="151,119.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
+        <Button x:Name="but7" Content="7" HorizontalAlignment="Left" Height="50" Margin="51,169.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
+        <Button x:Name="but8" Content="8" HorizontalAlignment="Left" Height="50" Margin="101,169.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
+        <Button x:Name="but9" Content="9" HorizontalAlignment="Left" Height="50" Margin="151,169.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
+        <Button x:Name="butOk" Content="✓" HorizontalAlignment="Left" Height="50" Margin="151,219.2,0,0" VerticalAlignment="Top" Width="50" Background="#FF64FD76"/>
+        <Button x:Name="but0" Content="0" HorizontalAlignment="Left" Height="50" Margin="101,219.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
+        <Button x:Name="butNo" Content="⛌" HorizontalAlignment="Left" Height="50" Margin="51,219.2,0,0" VerticalAlignment="Top" Width="50" Background="#FFFF4444"/>
+
+    </Grid>
+</Window>
