@@ -30,6 +30,10 @@ namespace Кодовый_замок_сюрреалиста
             timer.Interval = new TimeSpan(0, 0, 1);
             timer.Tick += Timer_Tick;
             timer.Start();
+            if (Convert.ToString(Text.Text.Length) == Convert.ToString(slider_label.Content))
+            {
+                Text.Text = "Pin-код верен!";
+            }
         }
 
         public Brush Make_Rand_Brush()
@@ -46,6 +50,18 @@ namespace Кодовый_замок_сюрреалиста
             }
             brush.Color = Color.FromRgb(Convert.ToByte(r), Convert.ToByte(g), Convert.ToByte(b));
             return brush;
+        }
+
+        public void Set_But_Num(Button but, int[] nums, int i)
+        {
+            if (nums[i] == 10)
+            {
+                but.Content = 0;
+            }
+            else
+            {
+                but.Content = nums[i];
+            }
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -73,23 +89,83 @@ namespace Кодовый_замок_сюрреалиста
                 }
                 nums[i] = num;
             }
-            but0.Content = nums[0];
-            but1.Content = nums[1];
-            but2.Content = nums[2];
-            but3.Content = nums[3];
-            but4.Content = nums[4];
-            but5.Content = nums[5];
-            but6.Content = nums[6];
-            but7.Content = nums[7];
-            but8.Content = nums[8];
-            but9.Content = nums[9];
+            Set_But_Num(but0, nums, 0);
+            Set_But_Num(but1, nums, 1);
+            Set_But_Num(but2, nums, 2);
+            Set_But_Num(but3, nums, 3);
+            Set_But_Num(but4, nums, 4);
+            Set_But_Num(but5, nums, 5);
+            Set_But_Num(but6, nums, 6);
+            Set_But_Num(but7, nums, 7);
+            Set_But_Num(but8, nums, 8);
+            Set_But_Num(but9, nums, 9);
+        }
+
+        public void Change_But_Num(Button but1, Button but2)
+        {
+            object a = but1.Content;
+            but1.Content = but2.Content;
+            but2.Content = a;
         }
 
         private void but_Click(object sender, RoutedEventArgs e)
         {
             Button but = sender as Button;
-            int num = rand.Next(10);
+            switch (rand.Next(10))
+            {
+                case 0:
+                    Change_But_Num(but, but0);
+                    break;
+                case 1:
+                    Change_But_Num(but, but1);
+                    break;
+                case 2:
+                    Change_But_Num(but, but2);
+                    break;
+                case 3:
+                    Change_But_Num(but, but3);
+                    break;
+                case 4:
+                    Change_But_Num(but, but4);
+                    break;
+                case 5:
+                    Change_But_Num(but, but5);
+                    break;
+                case 6:
+                    Change_But_Num(but, but6);
+                    break;
+                case 7:
+                    Change_But_Num(but, but7);
+                    break;
+                case 8:
+                    Change_But_Num(but, but8);
+                    break;
+                case 9:
+                    Change_But_Num(but, but9);
+                    break;
+            }
+            Text.Text += but.Content;
+            Text.Margin = new Thickness(Text.Margin.Left + rand.Next(-10, 10), Text.Margin.Top + rand.Next(-10, 10), 0, 0);
+        }
 
+        private void butNo_Click(object sender, RoutedEventArgs e)
+        {
+            but0.Content = "";
+            but1.Content = "";
+            but2.Content = "";
+            but3.Content = "";
+            but4.Content = "";
+            but5.Content = "";
+            but6.Content = "";
+            but7.Content = "";
+            but8.Content = "";
+            but9.Content = "";
+            Text.Text = "";
+        }
+
+        private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            slider_label.Content = slider.Value;
         }
     }
 }
