@@ -30,10 +30,6 @@ namespace Кодовый_замок_сюрреалиста
             timer.Interval = new TimeSpan(0, 0, 1);
             timer.Tick += Timer_Tick;
             timer.Start();
-            if (Convert.ToString(Text.Text.Length) == Convert.ToString(slider_label.Content))
-            {
-                Text.Text = "Pin-код верен!";
-            }
         }
 
         public Brush Make_Rand_Brush()
@@ -42,7 +38,7 @@ namespace Кодовый_замок_сюрреалиста
             int r = rand.Next(256);
             int g = rand.Next(256);
             int b = rand.Next(256);
-            while ((r == g | g == b | r == b) & r <= 80)
+            while (((r == g | g == b | r == b) & r <= 80) | ((r == g | g == b | r == b) & r >= 220))
             {
                 r = rand.Next(256);
                 g = rand.Next(256);
@@ -148,19 +144,47 @@ namespace Кодовый_замок_сюрреалиста
             Text.Margin = new Thickness(Text.Margin.Left + rand.Next(-10, 10), Text.Margin.Top + rand.Next(-10, 10), 0, 0);
         }
 
-        private void butNo_Click(object sender, RoutedEventArgs e)
+        private void butNoOk_Click(object sender, RoutedEventArgs e)
         {
-            but0.Content = "";
-            but1.Content = "";
-            but2.Content = "";
-            but3.Content = "";
-            but4.Content = "";
-            but5.Content = "";
-            but6.Content = "";
-            but7.Content = "";
-            but8.Content = "";
-            but9.Content = "";
-            Text.Text = "";
+            Button but = sender as Button;
+            if (but.Name == "butNo")
+            {
+                but0.Content = "";
+                but1.Content = "";
+                but2.Content = "";
+                but3.Content = "";
+                but4.Content = "";
+                but5.Content = "";
+                but6.Content = "";
+                but7.Content = "";
+                but8.Content = "";
+                but9.Content = "";
+                Text.Text = "";
+            }
+            else if (but.Name == "butOk")
+            {
+                if (Convert.ToString(slider_label.Content) != "")
+                {
+                    if (Convert.ToInt32(Text.Text.Length) == Convert.ToInt32(slider_label.Content))
+                    {
+                        Text.Text = "Pin-код верен!";
+                        but0.IsEnabled = false;
+                        but1.IsEnabled = false;
+                        but2.IsEnabled = false;
+                        but3.IsEnabled = false;
+                        but4.IsEnabled = false;
+                        but5.IsEnabled = false;
+                        but6.IsEnabled = false;
+                        but7.IsEnabled = false;
+                        but8.IsEnabled = false;
+                        but9.IsEnabled = false;
+                        butNo.IsEnabled = false;
+                        butOk.IsEnabled = false;
+                        Text.IsEnabled = false;
+                        timer.Stop();
+                    }
+                }
+            }
         }
 
         private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)

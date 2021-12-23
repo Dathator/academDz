@@ -17,11 +17,11 @@
         <Button x:Name="but7" Content="7" HorizontalAlignment="Left" Height="50" Margin="51,169.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
         <Button x:Name="but8" Content="8" HorizontalAlignment="Left" Height="50" Margin="101,169.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
         <Button x:Name="but9" Content="9" HorizontalAlignment="Left" Height="50" Margin="151,169.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
-        <Button x:Name="butOk" Content="✓" HorizontalAlignment="Left" Height="50" Margin="151,219.2,0,0" VerticalAlignment="Top" Width="50" Background="#FF64FD76"/>
+        <Button x:Name="butOk" Content="✓" HorizontalAlignment="Left" Height="50" Margin="151,219.2,0,0" VerticalAlignment="Top" Width="50" Background="#FF64FD76" Click="butNoOk_Click"/>
         <Button x:Name="but0" Content="0" HorizontalAlignment="Left" Height="50" Margin="101,219.2,0,0" VerticalAlignment="Top" Width="50" Click="but_Click"/>
-        <Button x:Name="butNo" Content="⛌" HorizontalAlignment="Left" Height="50" Margin="51,219.2,0,0" VerticalAlignment="Top" Width="50" Background="#FFFF4444" Click="butNo_Click"/>
+        <Button x:Name="butNo" Content="⛌" HorizontalAlignment="Left" Height="50" Margin="51,219.2,0,0" VerticalAlignment="Top" Width="50" Background="#FFFF4444" Click="butNoOk_Click"/>
         <Label x:Name="slider_label" Content="" HorizontalAlignment="Left" Height="26.533" Margin="272.133,42.667,0,0" VerticalAlignment="Top" Width="40"/>
-        <Slider x:Name="slider" HorizontalAlignment="Left" Height="22.95" Margin="231.067,74.2,0,0" VerticalAlignment="Top" Width="129.6" ValueChanged="slider_ValueChanged"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Height="22.95" Margin="231.067,74.2,0,0" VerticalAlignment="Top" Width="129.6" ValueChanged="slider_ValueChanged" IsSnapToTickEnabled="True"/>
 
     </Grid>
 </Window>
